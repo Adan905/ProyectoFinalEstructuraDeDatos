@@ -1,0 +1,32 @@
+﻿<Window x:Class="ProyectoED.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoED"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListView HorizontalAlignment="Left" Height="315" Margin="10,10,0,0" VerticalAlignment="Top" Width="250">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Título" Width="150"/>
+                    <GridViewColumn Header="Año" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid HorizontalAlignment="Left" Height="270" Margin="265,55,0,0" VerticalAlignment="Top" Width="517"/>
+        <Button Content="Agregar elemento" HorizontalAlignment="Left" Margin="265,30,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button Content="A / Z" HorizontalAlignment="Left" Margin="50,330,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Z / A" HorizontalAlignment="Left" Margin="50,355,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="+ / -" HorizontalAlignment="Left" Margin="130,330,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="- / +" HorizontalAlignment="Left" Margin="130,355,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Guardar elemento" HorizontalAlignment="Left" Margin="265,330,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="375,330,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Guardar elemento" HorizontalAlignment="Left" Margin="265,330,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button Content="Editar elemento" HorizontalAlignment="Left" Margin="265,355,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button Content="Eliminar elemento" HorizontalAlignment="Left" Margin="375,355,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="485,355,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
